@@ -1,0 +1,3 @@
+black_square -> black_large_square
+shipit -> squirrel
+white_square -> white_large_square
