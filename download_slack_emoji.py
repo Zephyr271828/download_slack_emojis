@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
-OUTDIR = Path("zlab_slack_emoji")
+OUTDIR = Path("outputs")
 OUTDIR.mkdir(exist_ok=True)
 
 def safe_name(name: str) -> str:

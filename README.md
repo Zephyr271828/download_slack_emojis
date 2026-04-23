@@ -60,15 +60,15 @@ python download_slack_emoji.py
 
 Output:
 
-- `zlab_slack_emoji/` — one image file per custom emoji (extension preserved from the source URL, defaulting to `.png`).
-- `zlab_slack_emoji/aliases.txt` — lines of the form `alias_name -> target_name` for emoji that are aliases of other emoji.
+- `outputs/` — one image file per custom emoji (extension preserved from the source URL, defaulting to `.png`).
+- `outputs/aliases.txt` — lines of the form `alias_name -> target_name` for emoji that are aliases of other emoji.
 
 The script prints progress for each download and a summary at the end:
 
 ```
 Real emoji files: <N>
 Aliases: <M>
-Saved to: /abs/path/to/zlab_slack_emoji
+Saved to: /abs/path/to/outputs
 ```
 
 ## Notes
